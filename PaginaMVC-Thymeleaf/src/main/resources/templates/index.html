@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Hello Spring Boot</title>
+
+<style type="text/css">
+.par {
+	background: yellow;
+}
+
+.impar {
+	background: silver;
+}
+</style>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th>Id</th>
+			<th>Nombre Usuario</th>
+			<th>Nombre Completo</th>
+		</tr>
+		<tr th:each="usuario:${lstUsuario}"
+			th:class="${usuarioStat.odd}?'impar':'par'">
+			<td th:text="${usuario.getId()}"></td>
+			<td th:text="${usuario.getNombreUsuario()}"></td>
+			<td th:text="${usuario.getNombreCompleto()}"></td>
+		</tr>
+	</table>
+</body>
+</html>
