@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: com.ejemplo.springboot
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Marshall
+Implementation-Vendor-Id: com.ejemplo.springboot
+Build-Jdk: 1.8.0_111
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/com.ejemplo.springboot
+Created-By: Maven Integration for Eclipse
+
